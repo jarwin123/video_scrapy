@@ -4,7 +4,7 @@ import re
 import time
 import hashlib
 import json
-from new_video_scrapy.items import *
+from video_scrapy.items import *
 def r1(pattern, text):
     m = re.search(pattern, text)
     if m:

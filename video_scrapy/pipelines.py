@@ -6,10 +6,10 @@
 # See: https://doc.scrapy.org/en/latest/topics/item-pipeline.html
 
 import os
-from new_video_scrapy.items import *
-from new_video_scrapy.flvcopycat import process_flv
-from new_video_scrapy.settings import TEMP_PATH,OUTPUT_PATH
-from new_video_scrapy.join_mp4 import concat_mp4
+from video_scrapy.items import *
+from video_scrapy.flvcopycat import process_flv
+from video_scrapy.settings import TEMP_PATH,OUTPUT_PATH
+from video_scrapy.join_mp4 import concat_mp4
 import subprocess
 from subprocess import DEVNULL
 import sys

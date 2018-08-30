@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Scrapy settings for new_video_scrapy project
+# Scrapy settings for video_scrapy project
 #
 # For simplicity, this file contains only settings considered important or
 # commonly used. You can find more settings consulting the documentation:
@@ -9,14 +9,14 @@
 #     https://doc.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://doc.scrapy.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = 'new_video_scrapy'
+BOT_NAME = 'video_scrapy'
 
-SPIDER_MODULES = ['new_video_scrapy.spiders']
-NEWSPIDER_MODULE = 'new_video_scrapy.spiders'
+SPIDER_MODULES = ['video_scrapy.spiders']
+NEWSPIDER_MODULE = 'video_scrapy.spiders'
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-#USER_AGENT = 'new_video_scrapy (+http://www.yourdomain.com)'
+#USER_AGENT = 'video_scrapy (+http://www.yourdomain.com)'
 
 # Obey robots.txt rules
 # LOG_LEVEL='INFO'
@@ -63,13 +63,13 @@ DEPTH_PRIORITY=-1
 # Enable or disable spider middlewares
 # See https://doc.scrapy.org/en/latest/topics/spider-middleware.html
 #SPIDER_MIDDLEWARES = {
-#    'new_video_scrapy.middlewares.NewVideoScrapySpiderMiddleware': 543,
+#    'video_scrapy.middlewares.NewVideoScrapySpiderMiddleware': 543,
 #}
 
 # Enable or disable downloader middlewares
 # See https://doc.scrapy.org/en/latest/topics/downloader-middleware.html
 #DOWNLOADER_MIDDLEWARES = {
-#    'new_video_scrapy.middlewares.NewVideoScrapyDownloaderMiddleware': 543,
+#    'video_scrapy.middlewares.NewVideoScrapyDownloaderMiddleware': 543,
 #}
 
 # Enable or disable extensions
@@ -81,7 +81,7 @@ DEPTH_PRIORITY=-1
 # Configure item pipelines
 # See https://doc.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
-   'new_video_scrapy.pipelines.MyFilePipeline': 300,
+   'video_scrapy.pipelines.MyFilePipeline': 300,
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)
